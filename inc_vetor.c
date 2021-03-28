@@ -12,17 +12,17 @@ Objetivo: Implementar um programa concorrente, com duas threads (além da thread
 #include <stdlib.h> 
 #include <pthread.h>
 
-#define NTHREADS  2 //total de threads a serem criadas
+#define NTHREADS  2
 #define TAM_VETOR 10000
 
-//cria a estrutura de dados para armazenar os argumentos da thread
+// Cria a estrutura de dados para armazenar os argumentos da thread
 typedef struct {
   int id;
   int *inicio_vetor;
   int *fim_vetor;
 } Argumento;
 
-// Função para imcrementar um pedaço de vetor dado
+// Função para incrementar um pedaço de vetor dado
 void *incrementaVetor (void *container) {
   Argumento *arg = (Argumento *) container;
   while(arg->inicio_vetor != arg->fim_vetor) {
@@ -57,9 +57,9 @@ int main() {
   for(t = 0 ; t < TAM_VETOR ; t++) {
     vetor[t] = 23;
   }
-
   printf("\tAntes: vetor[t] == %d.\n", vetor[0]);
-  //
+
+  // Estabeleço o tamanho da fatia do vetor a ser passada para a thread
   tam_fatia_thread = TAM_VETOR / NTHREADS;
 
   for(t = 0; t < NTHREADS; t++) {
