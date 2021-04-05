@@ -1,0 +1,79 @@
+relatorio laboratorio 2
+
+1. Avalie seu programa com matrizes com as seguintes dimensões: 500, 1000 e 2000.
+
+2. Para cada dimensão das matrizes de entrada, avalie seu programa usando o seguinte número de threads: 1, 2 e 4.
+
+3. Faça ao menos 5 execuções de cada caso e registre a de menor tempo.
+
+4. Calcule o desempenho obtido em cada caso e registre todos os resultados em um arquivo PDF.
+
+5. Avalie e comente no arquivo PDF se os resultados obtidos estão de acordo com o esperado;
+
+
+resultado do comando lscpu:
+    Arquitetura:                     x86_64
+    Ordem dos bytes:                 Little Endian
+    Tamanhos de endereço:            36 bits physical, 48 bits virtual
+    CPU(s):                          4
+    Thread(s) per núcleo:            2
+    Núcleo(s) por soquete:           2
+    Nome do modelo:                  Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz
+    CPU MHz máx.:                    2700,0000
+    CPU MHz mín.:                    800,0000
+    cache de L1d:                    64 KiB
+    cache de L1i:                    64 KiB
+    cache de L2:                     512 KiB
+    cache de L3:                     3 MiB
+
+
+$ ./mul_mat.out 500 1
+Tempo inicializacao:0.003204
+Tempo multiplicacao:1.681533
+Tempo finalizacao:0.000351
+
+$ ./mul_mat.out 500 2
+Tempo inicializacao:0.003153
+Tempo multiplicacao:0.837688
+Tempo finalizacao:0.000473
+
+$ ./mul_mat.out 500 4
+Tempo inicializacao:0.003705
+Tempo multiplicacao:0.776699
+Tempo finalizacao:0.000250
+
+$ ./mul_mat.out 1000 1
+Tempo inicializacao:0.013521
+Tempo multiplicacao:17.811788
+Tempo finalizacao:0.000782
+
+$ ./mul_mat.out 1000 2
+Tempo inicializacao:0.013768
+Tempo multiplicacao:8.842847
+Tempo finalizacao:0.001473
+
+$ ./mul_mat.out 1000 4
+Tempo inicializacao:0.014161
+Tempo multiplicacao:7.909425
+Tempo finalizacao:0.000875
+
+$ ./mul_mat.out 2000 1
+Tempo inicializacao:0.054755
+Tempo multiplicacao:141.023186
+Matriz de saida:
+   ... 4000.0 ... 
+Tempo finalizacao:0.003438
+
+$ ./mul_mat.out 2000 2
+Tempo inicializacao:0.052742
+Tempo multiplicacao:69.732474
+Matriz de saida:
+   ... 4000.0 ... 
+Tempo finalizacao:0.003349
+
+$ ./mul_mat.out 2000 4
+Tempo inicializacao:0.051573
+Tempo multiplicacao:62.376708
+Matriz de saida:
+   ... 4000.0 ... 
+Tempo finalizacao:0.004117

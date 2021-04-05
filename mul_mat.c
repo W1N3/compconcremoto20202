@@ -5,7 +5,7 @@ Prof.: Silvana Rossetto
 Módulo 1 - Laboratório: 2
 Codigo: Atividade 5 
 
-Objetivo: Projetar e implementar uma versão concorrente para o problema de multiplicação de matrizes; e avaliar o desempenho da aplicação em termos de tempo de execuo. Usaremos a linguagem C e a biblioteca Pthreads.
+Objetivo: Projetar e implementar uma versão concorrente para o problema de multiplicação de matrizes; e avaliar o desempenho da aplicação em termos de tempo de execução. Usaremos a linguagem C e a biblioteca Pthreads.
 
 */
 #include<stdio.h>
