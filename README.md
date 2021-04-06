@@ -19,7 +19,7 @@ Professora | Silvana Rossetto
 ### :hammer_and_pick: Lista de tarefas (sujeito a mudanças) :hammer_and_pick:
 
 - :ballot_box_with_check: Laboratório 1 (M1: Introdução à disciplina e da programação multithreading em C)
-- :white_large_square: Laboratório 2 (M1: Projeto, implementação e avaliação de uma aplicação concorrente (parte 1))
+- :ballot_box_with_check: Laboratório 2 (M1: Projeto, implementação e avaliação de uma aplicação concorrente (parte 1))
 - :white_large_square: Laboratório 3 (M1: Projeto, implementação e avaliação de uma aplicação concorrente (parte 2))
 - :white_large_square: Laboratório 4 (M1: Comunicação entre threads via memória compartilhada e sincronização com locks)
 - :white_large_square: Laboratório 5 (M2: Sincronização condicional com variáveis de condição (problema produtor/consumidor))
