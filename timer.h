@@ -16,6 +16,7 @@
 #define _CLOCK_TIMER_H
 
 #include <sys/time.h>
+#include <time.h>
 #define BILLION 1000000000L
 
 /* The argument now should be a double (not a pointer to a double) */
