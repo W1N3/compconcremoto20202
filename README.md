@@ -21,7 +21,7 @@ Professora | Silvana Rossetto
 - :ballot_box_with_check: Laboratório 1 (M1: Introdução à disciplina e da programação multithreading em C)
 - :ballot_box_with_check: Laboratório 2 (M1: Projeto, implementação e avaliação de uma aplicação concorrente (parte 1))
 - :ballot_box_with_check: Laboratório 3 (M1: Projeto, implementação e avaliação de uma aplicação concorrente (parte 2))
-- :white_large_square: Laboratório 4 (M1: Comunicação entre threads via memória compartilhada e sincronização com locks)
+- :white_large_square: Lista de exercícios assunto((M1: Comunicação entre threads via memória compartilhada e sincronização com locks) + anteriores)
 - :white_large_square: Laboratório 5 (M2: Sincronização condicional com variáveis de condição (problema produtor/consumidor))
 - :white_large_square: Laboratório 6 (M2: Problemas clássicos de concorrência usando locks e variáveis de condição (barreira e leitores/escritores))
 - :white_large_square: Trabalho 1
