@@ -100,10 +100,6 @@ int main(int argc, char* argv[]) {
     free(parcelas_pi_aprox);
   }
 
-
-  for(i=0; i<nthreads; i++) {
-  }
-
   GET_TIME(fim)   
   delta = fim - inicio;
   printf("M_PI(%.10lf) - pi_aprox(%.10Lf)  = %.10Lf\n", M_PI, pi_aprox, M_PI-((long double)pi_aprox));
