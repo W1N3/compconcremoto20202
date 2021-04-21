@@ -2,10 +2,8 @@
 
 Disciplina: Computacao Concorrente
 Prof.: Silvana Rossetto
-Módulo 1 - Laboratório: 3
-Codigo: Atividade 1
-
-O objetivo deste Laboratório é projetar e implementar uma versão concorrente para o problema de calcular a soma de uma série de valores reais que aproxima o valor de π; e avaliar o desempenho da aplicação em termos de tempo de execução. Usaremos a linguagem C e a biblioteca Pthreads.
+Módulo 1 - Trabalho 1
+Codigo: Avaliação do método de Integração numérica 
 
 */
 
