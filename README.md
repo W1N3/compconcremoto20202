@@ -23,7 +23,7 @@ Professora | Silvana Rossetto
 - :ballot_box_with_check: Laboratório 3 (M1: Projeto, implementação e avaliação de uma aplicação concorrente (parte 2))
 - :ballot_box_with_check: Lista de exercícios 1((M1: Comunicação entre threads via memória compartilhada e sincronização com locks) + anteriores)
 - :ballot_box_with_check: Laboratório 4 (M2: Sincronização condicional com variáveis de condição (problema produtor/consumidor))
-- :white_large_square: Trabalho 1
+- :ballot_box_with_check: Trabalho 1
 - :white_large_square: Laboratório 5 (M2: Problemas clássicos de concorrência usando locks e variáveis de condição (barreira e leitores/escritores))
 - :white_large_square: Laboratório 6 (M2: Monitores e mecanismos de sincronização em Java)
 - :white_large_square: Laboratório 7 (M2: Problemas clássicos de concorrência usando monitores em Java)
