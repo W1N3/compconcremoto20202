@@ -14,23 +14,23 @@ class S {
   }
 
   //operacao de escrita sobre o recurso compartilhado
-  public void inc() { 
+  /*public void inc() { 
      this.r++; 
   }
   //operacao de leitura sobre o recurso compartilhado
   public int get() { 
      return this.r; 
-  }
+  }*/
   
   // ou...
 
-  /*public synchronized void inc() { 
+  public synchronized void inc() { 
      this.r++; 
   }
 
   public synchronized int get() { 
       return this.r; 
-  }*/
+  }
   
 }
 
@@ -86,3 +86,18 @@ class TIncrementoBase {
       System.out.println("Valor de s = " + s.get()); 
    }
 }
+
+/*
+1. Qual é a seção crítica do código? Qual saída é esperada para o programa (valor final de s)?
+
+R: O método inc da classe S.
+
+2. Compile o programa, execute-o várias vezes e observe os resultados impressos na tela. Os valores impressos foram sempre o valor esperado? Por que?
+
+R: Não. Porque a seção crítica do código não possui mecanismo de sincronização para que a ação realizada seja de forma atômica, isto é, sem a possiblidade de instruções a nível de máquina sobreporem os valores dos registradores.
+
+1, 2 e 3. Comente as linhas 17-23; e descomente as linhas 27-33. Compile o programa, execute-o várias vezes e observe os resultados impressos na tela. Os valores impressos foram sempre o valor esperado? Por que?
+
+R: Sim. Pois colocar os métodos como synchronized é uma forma de garantir que o que é executado dentro dela é uma ação atômica, uma vez que um método synchronized é executado singularmente por quem chama o método de um dado objeto compartilhado.
+
+*/
