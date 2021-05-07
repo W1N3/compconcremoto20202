@@ -25,7 +25,7 @@ Professora | Silvana Rossetto
 - :ballot_box_with_check: Laboratório 4 (M2: Sincronização condicional com variáveis de condição (problema produtor/consumidor))
 - :ballot_box_with_check: Trabalho 1 (Análise de desempenho comparando os Métodos de Integração: Trapézio e 1/3 de Simpson Composto)
 - :ballot_box_with_check: Laboratório 5 (M2: Problemas clássicos de concorrência usando locks e variáveis de condição (barreira e leitores/escritores))
-- :white_large_square: Laboratório 6 (M2: Monitores e mecanismos de sincronização em Java)
+- :ballot_box_with_check: Laboratório 6 (M2: Monitores e mecanismos de sincronização em Java)
 - :white_large_square: Laboratório 7 (M2: Problemas clássicos de concorrência usando monitores em Java)
 - :white_large_square: Laboratório 8 (M3: Sincronização por exclusão mútua e condicional usando semáforos)
 - :white_large_square: Trabalho 2 
