@@ -28,6 +28,6 @@ Professora | Silvana Rossetto
 - :ballot_box_with_check: Laboratório 6 (M2: Monitores e mecanismos de sincronização em Java)
 - :ballot_box_with_check: Lista de exercícios 2
 - :white_large_square: Trabalho 2 
-- :white_large_square: Laboratório 7 (M2: Problemas clássicos de concorrência usando monitores em Java)
+- :ballot_box_with_check: Laboratório 7 (M2: Problemas clássicos de concorrência usando monitores em Java)
 - :white_large_square: Laboratório 8 (M3: Sincronização por exclusão mútua e condicional usando semáforos)
 - :white_large_square: Laboratório 9 (M3: Problemas clássicos de concorrência usando semáforos)
